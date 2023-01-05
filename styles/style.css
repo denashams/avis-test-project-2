@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #fee2b9;
+  --secondary-color: #c06b42;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: #c06b42;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(84, 126, 148, 0.7),
+      rgba(26, 51, 92, 0.7)
+    ),
+    url(/images/many-books.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.9;
+  padding: 18px 0 250px 0;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+  padding: 50px;
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin: 30px 0;
+}
+h3 {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: lighter;
+}
+
+.intouch {
+  font-size: 28px;
+  text-decoration: none;
+  display: block;
+  margin: 50px 600px;
+  text-align: center;
+  background-color: transparent;
+
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 20px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.intouch:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.section-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-links a {
+  text-transform: uppercase;
+
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  text-underline-offset: 8px;
+  font-size: 25px;
+  color: var(--primary-color);
+}
